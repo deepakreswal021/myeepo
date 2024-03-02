@@ -1,0 +1,51 @@
+Lec-1
+-->needed packages
+npm i express morgan colors dotenv nodemon mongoose jsonwebtoken bcryptjs
+
+express - framework of nodejs
+
+morgan - Morgan is a logging tool (middleware) that can be used in HTTP servers implemented using Express & Node. js. It can be used to log requests, errors, and more to the console.
+
+colors - get colors in your nodejs console
+
+dotenv - Loads environment variables from .env file
+
+nodemon- Simple monitor script for use during development of a Node.js app.(autoload krta hai)
+
+mongoose - Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js.(connection elstablish database to node)
+
+jsonwebtoken - A JSON Web Token (JWT) is a compact, self-contained means of securely transmitting information between parties as a JSON object.(tokenaization)
+
+bcryptjs - user authentication , encryption ,security consideratin ,allows building a password security platform
+
+---------------------------------------------------------------------------
+Lec 2
+--> design pattern follow for a large product
+mvc architecture
+routes - Defines the mapping between URLs and the corresponding controllers and actions. Routes determine how the application responds to specific HTTP requests.
+config - Configuration files or settings that define parameters and options for the application. This can include database connections, server settings, and other global configurations.(configratation related file like database etc)
+controllers - controllers function mostly call back functions(handle the business logic ,managing, updating and modifying)
+middleware -Functions that have access to the request, response, and the next function in the application's request-response cycle. Middleware functions can perform tasks such as authentication, logging, or modifying the request and response objects before they reach the route or controller.( sit between the incoming request and the outgoing response in an application. )
+models - Represent the application's data and business logic. (blueprint of data , how information is organized, stored, and accessed within your application)
+
+----------------------------------------------------------------------------
+
+Lec 3
+-> react app create (
+    npx create-react-app client
+)
+-> change the title name
+-> add bootsrap(using cdn)
+-> erase app.css,index.css, modify index.js
+
+-> npm i react-router-dom(enables you to implement dynamic routing in a web app) 
+-> npm i axios(Axios is a Javascript library used to make HTTP requests from node. js or XMLHttpRequests from the browser) 
+-> npm i antd(for ui designing)
+-> folder inside src - components , pages
+-> inside pages -> HomePage.js, Login.js ,Register.js
+-> rafce - react arow function with export
+-> vulnerability fix - npm audit fix
+
+-----------------------------------------------------------------------------
+
+Lec - 4 
